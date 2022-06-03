@@ -17,6 +17,8 @@ Scan the token list from left to right
       Any operators still on the stack can be removed and appended to the end of the output list.
     
 ```
+![image](https://user-images.githubusercontent.com/95578805/171882607-8c175dad-fe50-4ddf-a8b6-795cc54a8512.png)
+
 ##### Example
 ```
 1. Infix expression  : A+(B*C-(D/E^F)*G)*H
