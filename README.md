@@ -1,7 +1,7 @@
 ## DataStructures
 Data Structures
 
-- Infix to Postfix 
+  1. Infix to Postfix
 
 
-##### Dedicated to *Poojuu Bangaaram*
+##### Dedicated to Masha
