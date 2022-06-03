@@ -4,4 +4,4 @@ Data Structures
 - Infix to Postfix 
 
 
-##### Dedicated to Poojitha
+##### Dedicated to *Poojuu*
