@@ -17,6 +17,16 @@ Scan the token list from left to right
       Any operators still on the stack can be removed and appended to the end of the output list.
     
 ```
+##### Example
+```
+1. Infix expression  : A+(B*C-(D/E^F)*G)*H
+   Postfix Expression: ABC*DEF^/G*-H*+
+  
+2. Infix expression  : (3^2*5)/(3*2-3)+5
+   Postfix Expression: 32^5*32*3-/5+
+
+```
+
 #### Program in C 
 ```
 #include<stdio.h>
