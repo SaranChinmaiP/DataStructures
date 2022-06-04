@@ -92,7 +92,10 @@ main()
     while( s[top] != '#')     /* Pop from stack till empty */
         prfx[k++]=pop();
     prfx[k]='\0';          /* Make prfx as valid string */
-        reverse(infx);    reverse(prfx);
+    
+        reverse(infx); 
+        reverse(prfx);
+        
     printf("\n\nGiven Infix Expn: %s  Prefix Expn: %s\n",infx,prfx);
 }
 
