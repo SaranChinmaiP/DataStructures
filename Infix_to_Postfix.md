@@ -1,6 +1,6 @@
 #### Infix to Postfix Conversion
 Assume the infix expression is a string of tokens delimited by spaces. The operator tokens are *, /, +, and -, along with the left and right parentheses, ( and ). The operand tokens are the single-character identifiers A, B, C, and so on. The following steps will produce a string of tokens in postfix order.
-```
+<br/>
 Create an empty stack called opstack for keeping operators. Create an empty list for output.
 
 Convert the input infix string to a list by using the string method split.
@@ -16,7 +16,6 @@ Scan the token list from left to right
       When the input expression has been completely processed, check the opstack. 
       Any operators still on the stack can be removed and appended to the end of the output list.
     
-```
 ![image](https://user-images.githubusercontent.com/95578805/171882607-8c175dad-fe50-4ddf-a8b6-795cc54a8512.png)
 
 ##### Example
